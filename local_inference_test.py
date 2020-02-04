@@ -154,3 +154,7 @@ if __name__ == "__main__":
     image_np_expanded = np.expand_dims(image_np, axis=0)
     # Actual detection benchmark.
     fps = run_inference_benchmark(image_np, detection_graph, trial=20, gpu=not args.cpu)
+<<<<<<< HEAD
+=======
+
+>>>>>>> new data
